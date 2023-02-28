@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Checklist.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="Checklist.js" async defer></script>
+    </head>
+
+    <body>
+       <div class="container1 flex">
+            <div class="pt-64 pl-16">
+                <div class="w-6/12 items-center">
+                <h1 class="text-8xl">CLAYTON LIN'S TODOLIST</h1>
+                </div>
+
+                <div id="todo-list">
+                    <form class="mt-8 flex items-center" id ="form-todo">
+                        <input type="text" id="input-todo" placeholder="Add a task" class="w-6/12 h-12 p-8 text-xl bg-neutral-700 rounded-full">
+                        <button type="submit" class="bg-white rounded-full text-black h-12 p-8 flex items-center ml-6">Add</button>
+                    </form>
+                </div>
+            </div>
+
+            <ul id="list-todo" class="text-white">
+                
+            </ul>
+       </div>
+    </body>
+</html>
